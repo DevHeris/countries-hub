@@ -1,6 +1,4 @@
-# Frontend Mentor - REST Countries API with color theme switcher
-
-![Design preview for the REST Countries API with color theme switcher coding challenge](./design/desktop-preview.jpg)
+#  REST Countries API with color theme switcher
 
 This is a challenge project aimed at practicing the `useEffect()` hook in React. The goal is to create a web application that fetches data from the REST Countries API and displays information about various countries. Additionally, the application features a color theme switcher to toggle between light and dark modes.
 
