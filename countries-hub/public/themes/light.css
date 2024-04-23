@@ -1,0 +1,93 @@
+:root {
+  --light-mode-elements: hsl(0, 0%, 100%);
+  --light-mode-background: hsl(0, 0%, 98%);
+  --light-mode-text: hsl(200, 15%, 8%);
+  --shadow: hsla(0, 6%, 80%, 0.801);
+}
+
+*,
+body {
+  color: var(--light-mode-text);
+}
+
+header {
+  background-color: var(--light-mode-elements);
+  color: var(--light-mode-text);
+  box-shadow: 1px 6px 6px -2px var(--shadow);
+  -webkit-box-shadow: 1px 6px 6px -2px var(--shadow);
+  -moz-box-shadow: 1px 6px 6px -2px var(--shadow);
+}
+
+main {
+  background-color: var(--light-mode-background);
+}
+
+.search-input {
+  background-color: var(--light-mode-elements);
+  color: var(--light-mode-text);
+  box-shadow: 1px 6px 6px -2px var(--shadow);
+  -webkit-box-shadow: 1px 6px 6px -2px var(--shadow);
+  -moz-box-shadow: 1px 6px 6px -2px var(--shadow);
+}
+
+.search-input::placeholder {
+  color: var(--light-mode-text);
+}
+
+.filter-btn {
+  background-color: var(--light-mode-elements);
+  color: var(--light-mode-text);
+}
+
+.filter {
+  -webkit-box-shadow: 0px 1px 16px -1px var(--shadow);
+  -moz-box-shadow: 0px 1px 16px -1px var(--shadow);
+  box-shadow: 0px 1px 16px -1px var(--shadow);
+}
+
+.filter-values {
+  background-color: var(--light-mode-elements);
+  color: var(--light-mode-text);
+  box-shadow: 0px 1px 16px -1px var(--shadow);
+}
+
+.filter-values > li:hover {
+  background-color: var(--light-mode-background);
+}
+
+.country {
+  background-color: var(--light-mode-elements);
+  -webkit-box-shadow: 0px 1px 16px -1px var(--shadow);
+  -moz-box-shadow: 0px 1px 16px -1px var(--shadow);
+  box-shadow: 0px 1px 16px -1px var(--shadow);
+}
+
+.short-info span {
+  color: var(--light-mode-text);
+}
+
+/* Country details */
+.back-btn {
+  background-color: var(--light-mode-elements);
+  color: var(--light-mode-text);
+}
+
+.back-btn:hover {
+  -webkit-box-shadow: 0px 1px 16px -1pxvar (var(--shadow));
+  -moz-box-shadow: 0px 1px 16px -1pxvar (var(--shadow));
+  box-shadow: 0px 1px 16px -1pxvar (var(--shadow));
+}
+
+.text-wrapper {
+  color: var(--light-mode-text);
+}
+
+.main-info > p {
+  color: var(--light-mode-text);
+}
+
+.border em {
+  -webkit-box-shadow: 0px 1px 16px -1pxvar (var(--shadow));
+  -moz-box-shadow: 0px 1px 16px -1pxvar (var(--shadow));
+  box-shadow: 0px 1px 16px -1pxvar (var(--shadow));
+}

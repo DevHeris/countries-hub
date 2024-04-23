@@ -1,0 +1,87 @@
+:root {
+  --dark-mode-elements: hsl(208, 23%, 22%);
+  --dark-mode-background: hsl(209, 26%, 17%);
+  --dark-mode-text: hsl(0, 0%, 100%);
+}
+
+body {
+  background-color: var(--dark-mode-background);
+}
+
+header {
+  background-color: var(--dark-mode-elements);
+  color: var(--dark-mode-text);
+}
+
+.search-input {
+  background-color: var(--dark-mode-elements);
+  color: var(--dark-mode-text);
+}
+
+.search-input:focus {
+  -webkit-box-shadow: 0px 1px 16px -1px rgb(2, 14, 26);
+  -moz-box-shadow: 0px 1px 16px -1px rgb(2, 14, 26);
+  box-shadow: 0px 1px 16px -1px rgb(2, 14, 26);
+}
+
+.search-input::placeholder {
+  color: var(--dark-mode-text);
+}
+
+.filter-btn {
+  background-color: var(--dark-mode-elements);
+  color: var(--dark-mode-text);
+}
+
+.filter {
+  -webkit-box-shadow: 0px 1px 16px -1px rgb(2, 14, 26);
+  -moz-box-shadow: 0px 1px 16px -1px rgb(2, 14, 26);
+  box-shadow: 0px 1px 16px -1px rgb(2, 14, 26);
+}
+
+.filter-values {
+  background-color: var(--dark-mode-elements);
+  color: var(--dark-mode-text);
+  box-shadow: 0px 1px 16px -1px rgb(2, 14, 26);
+}
+
+.filter-values > li:hover {
+  background-color: var(--dark-mode-background);
+}
+
+.country {
+  background-color: var(--dark-mode-elements);
+  -webkit-box-shadow: 0px 1px 16px -1px rgba(2, 14, 26, 0.774);
+  -moz-box-shadow: 0px 1px 16px -1px rgba(2, 14, 26, 0.774);
+  box-shadow: 0px 1px 16px -1px rgba(2, 14, 26, 0.774);
+}
+
+.short-info span {
+  color: var(--dark-mode-text);
+}
+
+/* Country details */
+.back-btn {
+  background-color: var(--dark-mode-elements);
+  color: var(--dark-mode-text);
+}
+
+.back-btn:hover {
+  -webkit-box-shadow: 0px 1px 16px -1px rgba(2, 14, 26, 0.774);
+  -moz-box-shadow: 0px 1px 16px -1px rgba(2, 14, 26, 0.774);
+  box-shadow: 0px 1px 16px -1px rgba(2, 14, 26, 0.774);
+}
+
+.text-wrapper {
+  color: var(--dark-mode-text);
+}
+
+.main-info > p {
+  color: var(--dark-mode-text);
+}
+
+.border em {
+  -webkit-box-shadow: 0px 1px 16px -1px rgba(2, 14, 26, 0.774);
+  -moz-box-shadow: 0px 1px 16px -1px rgba(2, 14, 26, 0.774);
+  box-shadow: 0px 1px 16px -1px rgba(2, 14, 26, 0.774);
+}
